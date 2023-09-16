@@ -10,7 +10,11 @@
 using namespace std;
 
 int main() {
-    // insert code here...
-    cout << "Hello World :)\n" << endl;
+    int fav_number;
+    cout << "Enter your favourite number: ";
+    cin >> fav_number;
+    
+    cout << fav_number << " is a very good number!" << endl;
+    
     return 0;
 }
